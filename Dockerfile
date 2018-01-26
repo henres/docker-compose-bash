@@ -1,4 +1,4 @@
-FROM docker:17.07.0-git
+FROM docker:18-git
 
 RUN apk update && \
     apk add py-pip bash jq && \
